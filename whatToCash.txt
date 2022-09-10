@@ -1,0 +1,7 @@
+1. Operational days may be cached for one day.
+2. Cache static files with Cache-Control no-cache.
+They will be cached and revalidated each time.
+Cache REST-API response in nginx
+https://stackoverflow.com/questions/62531393/how-to-properly-configure-nginx-caching-for-rest-api
+3. Cache all images, txt and json files
+4. All requests must be send with keep_alive set.
